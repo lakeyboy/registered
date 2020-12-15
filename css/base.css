@@ -56,7 +56,7 @@ input {
     position: absolute;
     right: 0;
     top: 29px;
-    background-color: orange;
+    /*background-color: orange;*/
 }
 
 /* nav模块 */
@@ -82,10 +82,14 @@ input {
     position: relative;
 }
 
-.nav .memu .menu-list {
+.menu-list {
     background-color: #1fa4f0;
     width: 100%;
+    height: 423px;
     position: absolute;
+    left: 0;
+    top: 36px;
+    z-index: 2;
 
 }
 
@@ -266,7 +270,7 @@ input {
     float: left;
 }
 
-.content-tab block-caption-item_focus {
+.content-tab .block-caption-item_focus {
     background-color: #60bff2;
     color: #fff;
 }
@@ -281,4 +285,74 @@ input {
     text-align: center;
     color: #5084c4;
     font-size: 14px;
+}
+
+/*医院的列表容器*/
+.content-tab .block-content .block-list {
+
+}
+
+.content-tab .block-content .block-list .item {
+    float: left;
+    width: 216px;
+    height: 102px;
+    padding: 0 20px 10px 120px;
+    position: relative;
+    font-size: 12px;
+}
+
+.content-tab .block-content .block-list .item img {
+    width: 110px;
+    height: 98px;
+    position: absolute;
+    left: 0;
+    top: 0px
+}
+
+.content-tab .block-content .block-list .item-name {
+    color: #036eb7;
+    font-size: 14px;
+    line-height: 21px;
+    padding-top: 13px;
+}
+
+.content-tab .block-content .block-list .item-level {
+    float: left;
+    font-size: 12px;
+    color: #979797;
+}
+
+.content-tab .block-content .block-list .item-phone,
+.content-tab .block-content .block-list .item-address {
+    line-height: 18px;
+    padding-bottom: 4px;
+    color: #666;
+}
+
+/*医院文案列表*/
+
+.content-tab .block-content .block-text-list {
+
+}
+
+.content-tab .block-content .block-text-list .item {
+    display: block;
+    width: 351px;
+    height: 27px;
+    font-size: 14px;
+    color: #666;
+    padding-top: 8px;
+    float: left;
+    border-bottom: 1px dashed #dcdddd;
+}
+
+.content-tab .block-content .block-text-list .item:nth-child(2n) {
+    margin-left: 13px;
+}
+
+.footer {
+    line-height: 70px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
 }
