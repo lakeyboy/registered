@@ -38,14 +38,34 @@ $.fn.UiTab = function (header, content, focus_prefix) {
         cons.hide().eq(index).show();
         return false;
     })
-
-
 }
+// ui-backTop
+$.fn.UiBackTop = function () {
+    var ui = $(this);
+    var el = $('<a class="ui-backTop" href="0">');
+    ui.append(el);
 
+    var windowHeight = $(window).height();
+    // console.log(windowHeight)
+
+    $(window).on('scroll', function () {
+        var top = $('html').scrollTop();
+
+        if (top > windowHeight / 2) {
+            el.show()
+        } else {
+            el.hide()
+        }
+    });
+    el.on('click', function () {
+        // $(window).scrollTop(0);
+    })
+}
 // 页面脚本逻辑
 $(function () {
     $('.ui-search').UiSearch();
     // >表示具体某一个下面的   ''空格表示下面所有的
     $('.content-tab').UiTab('.caption > .item', '.block > .item');
-    $('.content-tab .block .item').UiTab('.block-caption > a', '.block-content > .block-wrap', 'block-caption-')
+    $('.content-tab .block .item').UiTab('.block-caption > a', '.block-content > .block-wrap', 'block-caption-');
+    $('body').UiBackTop()
 })

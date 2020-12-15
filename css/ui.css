@@ -173,3 +173,23 @@
     color: #ddd;
     padding-left: 8px;
 }
+
+/*回到顶部样式*/
+.ui-backTop {
+    display: none;
+    position: fixed;
+    right: 2px;
+    bottom: 2px;
+    z-index: 9;
+    width: 40px;
+    height: 40px;
+    background: rgba(102, 102, 102, .9) url("../img/icon-go-up.png") center no-repeat;
+}
+
+.ui-backTop:hover:after {
+    background: rgba(102, 102, 102, .9);
+    content: '回到底部';
+    display: block;
+    line-height: 20px;
+    text-align: center;
+}
