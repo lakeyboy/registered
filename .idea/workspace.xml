@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c3f5181-4b06-4d09-a9b8-7864aa1a1864" name="默认的" comment="1.新增js文件，以及js库">
+    <list default="true" id="46f97463-d39a-46bc-92dd-1bd6e06c7b87" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ui.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -11,62 +12,37 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1lfnVIRgBCXmcqqkxpdfRnODhQc" />
+  <component name="ProjectId" id="1ld7B5HAQaoKFdysFLL3MU0QwHD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="5c3f5181-4b06-4d09-a9b8-7864aa1a1864" name="默认的" comment="" />
-      <created>1607997034345</created>
+      <changelist id="46f97463-d39a-46bc-92dd-1bd6e06c7b87" name="默认的" comment="" />
+      <created>1607914979151</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607997034345</updated>
-      <workItem from="1607997035718" duration="33336000" />
+      <updated>1607914979151</updated>
+      <workItem from="1607914980610" duration="1715000" />
+      <workItem from="1607940977587" duration="4000" />
+      <workItem from="1607941363211" duration="5000" />
+      <workItem from="1607941785900" duration="4600000" />
+      <workItem from="1608081835251" duration="222000" />
+      <workItem from="1608083020614" duration="17425000" />
     </task>
-    <task id="LOCAL-00001" summary="vscode 自动生成的文件">
-      <created>1607997498729</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1607997498729</updated>
-    </task>
-    <task id="LOCAL-00002" summary="1.新增js文件，以及js库">
-      <created>1608046350395</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1608046350395</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,10 +58,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="vscode 自动生成的文件" />
-    <MESSAGE value="1.新增js文件，以及js库" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.新增js文件，以及js库" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
