@@ -182,7 +182,37 @@ var getData = function (k, v) {
 }
 //级联选择器   this指的是调用uiCascading的那个类
 $.fn.uiCascading = function () {
+    var ui = $(this)
+    var listSelect = $('select', ui)
 
+    listSelect
+        //表示要触发的事件
+        .on('change', function () {
+            var changeIndex = listSelect.index(this)
+            var k = $(this).attr('name')
+            var v = $(this).val()
+
+            var data = getData(k, v)
+            listSelect.eq(changeIndex + 1).triggerHandler('updateOptions', {data: data})
+            ui.find('select:gt(' + (changeIndex + 1) + ')').each(function () {
+                $(this).triggerHandler('updateOptions', {data: []})
+            })
+        })
+        .on('updateOptions', function (evt, ajax) {
+            var select = $(this)
+            select.find('option[value!=-1]').remove()
+            if (ajax.data.length < 1) {
+                return true
+            }
+            for (var i = 0, j = ajax.data.length; i < j; i++) {
+                var k = ajax.data[i].id
+                var v = ajax.data[i].name
+                select.append($('<option>').attr('value', k).text(v))
+            }
+            return true
+        })
+    listSelect.find('option:first').attr('value', '-1')
+    listSelect.eq(0).triggerHandler('updateOptions', {data: getData()})
 }
 
 // 页面脚本逻辑
